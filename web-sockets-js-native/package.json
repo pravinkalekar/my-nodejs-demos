@@ -1,0 +1,40 @@
+{
+  "name": "web-sockets-js-native",
+  "version": "1.0.0",
+  "description": "A web sockets demo using node ws module for web socket server and java script native WebSocket object as client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node webSocketServer",
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pravinkalekar/my-nodejs-demos.git"
+  },
+  "keywords": [
+    "web",
+    "sockets",
+    "node",
+    "WebSocket",
+    "ws"
+  ],
+  "author": "Pravin Kalekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pravinkalekar/my-nodejs-demos/issues"
+  },
+  "homepage": "https://github.com/pravinkalekar/my-nodejs-demos#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "eslint-plugin-react": "^7.10.0",
+    "ws": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1"
+  }
+}
