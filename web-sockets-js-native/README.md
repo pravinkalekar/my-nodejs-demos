@@ -5,3 +5,7 @@ This is a demo application showcasing the use of Native JavaScript WebSocket cli
 
 To start the WebSocket Server, run `npm install && npm start`
 
+This would start the server on localhost:8090.
+
+
+To open the WebSocket clients, open the [index.html](./public/index.html) directly in the web browser.
