@@ -9,14 +9,14 @@ const wss = new WebSocketServer.Server({
 });
 
 // Listen for new connections to the WebSocket server
-wss.on('connection', (socket) => {
+wss.on('connection', (ws, req) => {
   logger.info('New client connected. Total Clients=', wss.clients.size);
 
   // Send a new message to this client
-  socket.send('Hello from NodeJS Web Socket Server');
+  ws.send('Hello from NodeJS Web Socket Server');
 
   // Adding a listener when this client sends a message
-  socket.addEventListener('message', (event) => {
+  ws.addEventListener('message', (event) => {
     logger.debug({ message: event.data }, 'Message Received');
 
     // broadcast message from this client to all other clients

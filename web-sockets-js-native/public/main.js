@@ -4,8 +4,8 @@ ws.onopen = () => {
   $('#status').text('Connected');
 };
 
-ws.onmessage = (message) => {
-  $('<p>').text(message.data).appendTo('#msgs');
+ws.onmessage = (event) => {
+  $('<p>').text(event.data).appendTo('#msgs');
 };
 
 ws.onclose = () => {
