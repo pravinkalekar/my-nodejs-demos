@@ -4,7 +4,7 @@
 const bunyan = require('bunyan');
 
 const logger = bunyan.createLogger({
-  name: 'occ-opt-down',
+  name: 'web-socket-demo',
   streams: [
     // Log debug and above to stdout
     {
