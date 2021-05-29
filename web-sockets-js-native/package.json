@@ -28,7 +28,7 @@
   "dependencies": {
     "bunyan": "^1.8.12",
     "eslint-plugin-react": "^7.10.0",
-    "ws": "^6.0.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
